@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-26T02:03:49Z",
+  "updated": "2026-11-26T05:01:49Z",
   "versions": {
    "chrome": 142,
    "firefox": 144
@@ -78,7 +78,7 @@
    "id": "chrome_desktop",
    "name": "Chrome Desktop",
    "color": "#34A853",
-   "note": "Brave dan Vivaldi memakai UA yang sama dengan Chrome.",
+   "note": "Brave dan Vivaldi memakai UA yang sama dengan Chrome. UA macOS ada di kategori macOS.",
    "sections": [
     {
      "title": "Terbaru · Windows",
@@ -86,15 +86,6 @@
       {
        "label": "Chrome 142",
        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
-      }
-     ]
-    },
-    {
-     "title": "Terbaru · macOS",
-     "items": [
-      {
-       "label": "Chrome 142",
-       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
       }
      ]
     },
@@ -221,7 +212,7 @@
    "id": "firefox_desktop",
    "name": "Firefox Desktop",
    "color": "#E66000",
-   "note": "",
+   "note": "UA macOS ada di kategori macOS.",
    "sections": [
     {
      "title": "Terbaru · Windows",
@@ -229,15 +220,6 @@
       {
        "label": "Firefox 144",
        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0"
-      }
-     ]
-    },
-    {
-     "title": "Terbaru · macOS",
-     "items": [
-      {
-       "label": "Firefox 144",
-       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:144.0) Gecko/20100101 Firefox/144.0"
       }
      ]
     },
@@ -340,13 +322,13 @@
    ]
   },
   {
-   "id": "safari_macos",
-   "name": "Safari macOS",
+   "id": "macos",
+   "name": "macOS",
    "color": "#5AC8FA",
-   "note": "Data statis (diperbarui manual).",
+   "note": "Safari bersifat statis (diperbarui manual); Chrome dan Firefox diperbarui otomatis.",
    "sections": [
     {
-     "title": "Mac",
+     "title": "Safari",
      "items": [
       {
        "label": "Safari 26.0 (macOS 26)",
@@ -367,6 +349,106 @@
       {
        "label": "Safari 15.6",
        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15"
+      }
+     ]
+    },
+    {
+     "title": "Terbaru · Chrome",
+     "items": [
+      {
+       "label": "Chrome 142",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+      }
+     ]
+    },
+    {
+     "title": "Riwayat · Chrome",
+     "items": [
+      {
+       "label": "Chrome 141",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+      },
+      {
+       "label": "Chrome 140",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+      },
+      {
+       "label": "Chrome 139",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+      },
+      {
+       "label": "Chrome 138",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+      },
+      {
+       "label": "Chrome 137",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+      },
+      {
+       "label": "Chrome 136",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+      },
+      {
+       "label": "Chrome 135",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+      },
+      {
+       "label": "Chrome 134",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+      },
+      {
+       "label": "Chrome 133",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+      }
+     ]
+    },
+    {
+     "title": "Terbaru · Firefox",
+     "items": [
+      {
+       "label": "Firefox 144",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:144.0) Gecko/20100101 Firefox/144.0"
+      }
+     ]
+    },
+    {
+     "title": "Riwayat · Firefox",
+     "items": [
+      {
+       "label": "Firefox 143",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:143.0) Gecko/20100101 Firefox/143.0"
+      },
+      {
+       "label": "Firefox 142",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0"
+      },
+      {
+       "label": "Firefox 141",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:141.0) Gecko/20100101 Firefox/141.0"
+      },
+      {
+       "label": "Firefox 140",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:140.0) Gecko/20100101 Firefox/140.0"
+      },
+      {
+       "label": "Firefox 139",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"
+      },
+      {
+       "label": "Firefox 138",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0"
+      },
+      {
+       "label": "Firefox 137",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0"
+      },
+      {
+       "label": "Firefox 136",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:136.0) Gecko/20100101 Firefox/136.0"
+      },
+      {
+       "label": "Firefox 135",
+       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0"
       }
      ]
     }
@@ -665,81 +747,6 @@
    ]
   },
   {
-   "id": "webview",
-   "name": "WebView & in-app",
-   "color": "#30B0C7",
-   "note": "Aplikasi sosial punya UA sendiri-sendiri; contoh ini hanya pola tipikal.",
-   "sections": [
-    {
-     "title": "Terbaru · Android",
-     "items": [
-      {
-       "label": "Android WebView 142",
-       "ua": "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/142.0.0.0 Mobile Safari/537.36"
-      }
-     ]
-    },
-    {
-     "title": "Riwayat · Android",
-     "items": [
-      {
-       "label": "Android WebView 141",
-       "ua": "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/141.0.0.0 Mobile Safari/537.36"
-      },
-      {
-       "label": "Android WebView 140",
-       "ua": "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/140.0.0.0 Mobile Safari/537.36"
-      },
-      {
-       "label": "Android WebView 139",
-       "ua": "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/139.0.0.0 Mobile Safari/537.36"
-      },
-      {
-       "label": "Android WebView 138",
-       "ua": "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.0.0 Mobile Safari/537.36"
-      },
-      {
-       "label": "Android WebView 137",
-       "ua": "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/137.0.0.0 Mobile Safari/537.36"
-      },
-      {
-       "label": "Android WebView 136",
-       "ua": "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/136.0.0.0 Mobile Safari/537.36"
-      },
-      {
-       "label": "Android WebView 135",
-       "ua": "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.0.0 Mobile Safari/537.36"
-      },
-      {
-       "label": "Android WebView 134",
-       "ua": "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/134.0.0.0 Mobile Safari/537.36"
-      },
-      {
-       "label": "Android WebView 133",
-       "ua": "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/133.0.0.0 Mobile Safari/537.36"
-      }
-     ]
-    },
-    {
-     "title": "iOS & aplikasi sosial",
-     "items": [
-      {
-       "label": "iOS WKWebView",
-       "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
-      },
-      {
-       "label": "Facebook in-app · Android",
-       "ua": "Mozilla/5.0 (Linux; Android 13; SM-A536E Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/450.0.0.0.0;]"
-      },
-      {
-       "label": "Facebook in-app · iOS",
-       "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBAV/450.0.0.0.0;FBBV/0;FBDV/iPhone16,2;FBMD/iPhone;FBSN/iOS;FBSV/18.6;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5]"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "id": "tv_konsol",
    "name": "TV & konsol",
    "color": "#AF52DE",
@@ -775,133 +782,6 @@
       {
        "label": "Nintendo Switch",
        "ua": "Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.5.10 NintendoBrowser/5.1.0.13343"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "bot_crawler",
-   "name": "Bot & crawler",
-   "color": "#636366",
-   "note": "Situs sering memblokir UA bot palsu. Pakai hanya untuk pengujian milik sendiri.",
-   "sections": [
-    {
-     "title": "Terbaru · Googlebot & Bing",
-     "items": [
-      {
-       "label": "Googlebot Desktop (Chrome 142)",
-       "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/142.0.0.0 Safari/537.36"
-      },
-      {
-       "label": "Googlebot Smartphone (Chrome 142)",
-       "ua": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
-      },
-      {
-       "label": "Bingbot (Chrome 142)",
-       "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/142.0.0.0 Safari/537.36"
-      }
-     ]
-    },
-    {
-     "title": "Bot lain",
-     "items": [
-      {
-       "label": "Bing (klasik)",
-       "ua": "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
-      },
-      {
-       "label": "Googlebot (klasik)",
-       "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
-      },
-      {
-       "label": "DuckDuckBot",
-       "ua": "DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html)"
-      },
-      {
-       "label": "YandexBot",
-       "ua": "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
-      },
-      {
-       "label": "Baiduspider",
-       "ua": "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
-      },
-      {
-       "label": "Applebot",
-       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)"
-      },
-      {
-       "label": "Facebook link preview",
-       "ua": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
-      },
-      {
-       "label": "Twitterbot",
-       "ua": "Twitterbot/1.0"
-      },
-      {
-       "label": "Slackbot",
-       "ua": "Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)"
-      },
-      {
-       "label": "LinkedInBot",
-       "ua": "LinkedInBot/1.0 (compatible; Mozilla/5.0; Apache-HttpClient +http://www.linkedin.com)"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "alat_http",
-   "name": "Alat & HTTP client",
-   "color": "#64748B",
-   "note": "Angka versi hanya contoh. Data statis (diperbarui manual).",
-   "sections": [
-    {
-     "title": "Klien HTTP",
-     "items": [
-      {
-       "label": "curl",
-       "ua": "curl/8.9.1"
-      },
-      {
-       "label": "Wget",
-       "ua": "Wget/1.24.5"
-      },
-      {
-       "label": "Python requests",
-       "ua": "python-requests/2.32.3"
-      },
-      {
-       "label": "Python urllib",
-       "ua": "Python-urllib/3.12"
-      },
-      {
-       "label": "Node.js fetch (undici)",
-       "ua": "node"
-      },
-      {
-       "label": "Axios",
-       "ua": "axios/1.7.7"
-      },
-      {
-       "label": "Go",
-       "ua": "Go-http-client/2.0"
-      },
-      {
-       "label": "OkHttp (Android)",
-       "ua": "okhttp/4.12.0"
-      },
-      {
-       "label": "Android Dalvik",
-       "ua": "Dalvik/2.1.0 (Linux; U; Android 14; Pixel 8 Build/UD1A.231105.004)"
-      },
-      {
-       "label": "Apache HttpClient",
-       "ua": "Apache-HttpClient/4.5.14 (Java/17.0.9)"
-      },
-      {
-       "label": "Postman",
-       "ua": "PostmanRuntime/7.43.0"
       }
      ]
     }
