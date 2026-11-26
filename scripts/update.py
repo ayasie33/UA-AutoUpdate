@@ -133,10 +133,6 @@ CH_CROS = "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, l
 FF_UBU = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:{v}.0) Gecko/20100101 Firefox/{v}.0"
 FXIOS = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/{v}.0 Mobile/15E148 Safari/605.1.15"
 EDGE_IOS = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 EdgiOS/{v}.0.0.0 Mobile/15E148 Safari/605.1.15"
-WEBVIEW = "Mozilla/5.0 (Linux; Android 10; K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{v}.0.0.0 Mobile Safari/537.36"
-GOOGLEBOT_DESKTOP = "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/{v}.0.0.0 Safari/537.36"
-GOOGLEBOT_MOBILE = "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{v}.0.0.0 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
-BINGBOT = "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/{v}.0.0.0 Safari/537.36"
 
 # ---------- Data statis ----------
 SAFARI_MAC = [
@@ -159,12 +155,6 @@ OTHER_BROWSERS = [
     ("Tor Browser 14 (ESR 128)", "Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0"),
 ]
 
-WEBVIEW_STATIC = [
-    ("iOS WKWebView", "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"),
-    ("Facebook in-app · Android", "Mozilla/5.0 (Linux; Android 13; SM-A536E Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/450.0.0.0.0;]"),
-    ("Facebook in-app · iOS", "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBAV/450.0.0.0.0;FBBV/0;FBDV/iPhone16,2;FBMD/iPhone;FBSN/iOS;FBSV/18.6;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5]"),
-]
-
 TV_CONSOLE = [
     ("Samsung Smart TV (Tizen 7)", "Mozilla/5.0 (SMART-TV; Linux; Tizen 7.0) AppleWebKit/537.36 (KHTML, like Gecko) 94.0.4606.31/7.0 TV Safari/537.36"),
     ("LG webOS TV", "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.211 Safari/537.36 WebAppManager"),
@@ -173,33 +163,6 @@ TV_CONSOLE = [
     ("PlayStation 4", "Mozilla/5.0 (PlayStation 4 11.00) AppleWebKit/605.1.15 (KHTML, like Gecko)"),
     ("Xbox One", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; Xbox; Xbox One) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36 Edge/20.02"),
     ("Nintendo Switch", "Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.5.10 NintendoBrowser/5.1.0.13343"),
-]
-
-BOTS = [
-    ("Bing (klasik)", "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"),
-    ("Googlebot (klasik)", "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"),
-    ("DuckDuckBot", "DuckDuckBot/1.1; (+http://duckduckgo.com/duckduckbot.html)"),
-    ("YandexBot", "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"),
-    ("Baiduspider", "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"),
-    ("Applebot", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Applebot/0.1; +http://www.apple.com/go/applebot)"),
-    ("Facebook link preview", "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"),
-    ("Twitterbot", "Twitterbot/1.0"),
-    ("Slackbot", "Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)"),
-    ("LinkedInBot", "LinkedInBot/1.0 (compatible; Mozilla/5.0; Apache-HttpClient +http://www.linkedin.com)"),
-]
-
-HTTP_TOOLS = [
-    ("curl", "curl/8.9.1"),
-    ("Wget", "Wget/1.24.5"),
-    ("Python requests", "python-requests/2.32.3"),
-    ("Python urllib", "Python-urllib/3.12"),
-    ("Node.js fetch (undici)", "node"),
-    ("Axios", "axios/1.7.7"),
-    ("Go", "Go-http-client/2.0"),
-    ("OkHttp (Android)", "okhttp/4.12.0"),
-    ("Android Dalvik", "Dalvik/2.1.0 (Linux; U; Android 14; Pixel 8 Build/UD1A.231105.004)"),
-    ("Apache HttpClient", "Apache-HttpClient/4.5.14 (Java/17.0.9)"),
-    ("Postman", "PostmanRuntime/7.43.0"),
 ]
 
 LEGACY_BROWSERS = [
@@ -228,13 +191,18 @@ def build():
         cat("chrome_android", "Chrome Android", "#1A73E8",
             auto("Chrome", [("Android", CH_AND), ("Android Tablet", CH_TAB)], c)),
         cat("chrome_desktop", "Chrome Desktop", "#34A853",
-            auto("Chrome", [("Windows", CH_WIN), ("macOS", CH_MAC), ("Linux", CH_LIN), ("ChromeOS", CH_CROS)], c),
-            "Brave dan Vivaldi memakai UA yang sama dengan Chrome."),
+            auto("Chrome", [("Windows", CH_WIN), ("Linux", CH_LIN), ("ChromeOS", CH_CROS)], c),
+            "Brave dan Vivaldi memakai UA yang sama dengan Chrome. UA macOS ada di kategori macOS."),
         cat("firefox_android", "Firefox Android", "#FF7139", auto("Firefox", [("Android", FF_AND)], f)),
         cat("firefox_desktop", "Firefox Desktop", "#E66000",
-            auto("Firefox", [("Windows", FF_WIN), ("macOS", FF_MAC), ("Linux", FF_LIN), ("Ubuntu", FF_UBU)], f)),
+            auto("Firefox", [("Windows", FF_WIN), ("Linux", FF_LIN), ("Ubuntu", FF_UBU)], f),
+            "UA macOS ada di kategori macOS."),
         cat("safari_ios", "Safari iOS", "#0A84FF", [sec("iPhone & iPad", static_items(SAFARI_IOS))], STATIC_NOTE),
-        cat("safari_macos", "Safari macOS", "#5AC8FA", [sec("Mac", static_items(SAFARI_MAC))], STATIC_NOTE),
+        cat("macos", "macOS", "#5AC8FA",
+            [sec("Safari", static_items(SAFARI_MAC))]
+            + auto("Chrome", [("Chrome", CH_MAC)], c)
+            + auto("Firefox", [("Firefox", FF_MAC)], f),
+            "Safari bersifat statis (diperbarui manual); Chrome dan Firefox diperbarui otomatis."),
         cat("chrome_ios", "Chrome iOS", "#5E5CE6", auto("Chrome iOS", [("iPhone", CRIOS)], c)),
         cat("firefox_ios", "Firefox iOS", "#FF9500", auto("Firefox iOS", [("iPhone", FXIOS)], f)),
         cat("edge", "Edge", "#0F7B6C",
@@ -245,20 +213,7 @@ def build():
             [sec("Desktop", static_items(OPERA)), sec("Android", static_items(OPERA_ANDROID))], STATIC_NOTE),
         cat("browser_lain", "Browser lain", "#8E8E93", [sec("UC, MIUI, Yandex, Tor", static_items(OTHER_BROWSERS))],
             "Pola tipikal; angka versi bisa berbeda. " + STATIC_NOTE),
-        cat("webview", "WebView & in-app", "#30B0C7",
-            auto("Android WebView", [("Android", WEBVIEW)], c)
-            + [sec("iOS & aplikasi sosial", static_items(WEBVIEW_STATIC))],
-            "Aplikasi sosial punya UA sendiri-sendiri; contoh ini hanya pola tipikal."),
         cat("tv_konsol", "TV & konsol", "#AF52DE", [sec("Perangkat", static_items(TV_CONSOLE))], STATIC_NOTE),
-        cat("bot_crawler", "Bot & crawler", "#636366",
-            [sec("Terbaru · Googlebot & Bing", [
-                item(f"Googlebot Desktop (Chrome {c})", GOOGLEBOT_DESKTOP.format(v=c)),
-                item(f"Googlebot Smartphone (Chrome {c})", GOOGLEBOT_MOBILE.format(v=c)),
-                item(f"Bingbot (Chrome {c})", BINGBOT.format(v=c)),
-            ]), sec("Bot lain", static_items(BOTS))],
-            "Situs sering memblokir UA bot palsu. Pakai hanya untuk pengujian milik sendiri."),
-        cat("alat_http", "Alat & HTTP client", "#64748B", [sec("Klien HTTP", static_items(HTTP_TOOLS))],
-            "Angka versi hanya contoh. " + STATIC_NOTE),
         cat("browser_lawas", "Browser lawas", "#0078D4", [sec("IE & Edge lama", static_items(LEGACY_BROWSERS))],
             "Sudah tidak didukung; hanya untuk pengujian."),
         cat("android_lama", "Android lama (≤ 9)", "#3DDC84", [sec("Chrome Android", static_items(LEGACY_ANDROID))],
